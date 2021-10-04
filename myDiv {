@@ -1,0 +1,13 @@
+.myDiv {
+text-align: center;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #FFFFFF;
+background-image: url("https://user-images.githubusercontent.com/91216962/135722206-e6aeb2bd-6cac-468d-8677-4c642094065d.jpeg");
+	height: auto; width: auto;
+
+		}
+		img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

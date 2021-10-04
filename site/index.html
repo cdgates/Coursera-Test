@@ -1,25 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>MMN</title>
-  <style>
-.myDiv {
-  border:5px outset #663700;
+<style>
+#example1 {
+  font: "atomic-age";
+  background-position: center;
+  background-size: 1086px 724px;
+    background-image: url(https://user-images.githubusercontent.com/91216962/135722206-e6aeb2bd-6cac-468d-8677-4c642094065d.jpeg);
   text-align: center;
-font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  background-image: url("https://user-images.githubusercontent.com/91216962/135722206-e6aeb2bd-6cac-468d-8677-4c642094065d.jpeg");
-  
-    
-  </style>
+    background-repeat: no-repeat;
+  color: white;
+  align-content: center;
+  }
+</style>
 </head>
 <body>
-<div class="myDiv">
-  <h1>Myselium Monitoring Network
-    
-    </h1>
-  <p>paragraph</p>
+
+<div id="example1">
+  <h1><span style="font-size: 52pt;">Mycelium Monitoring Network</span></h1>
+  <p><span style="font-size: 20pt"></span></p>
+  <table border="1" bordercolor="white" align="center" style="font-size: 32pt">
+  <tr>
+    <td>Humidity</td>
+    <td>Temperature</td>
+    <td>Time</td>
+  </tr>
+  <tr>
+    <td>Python driving Humidity</td>
+    <td>Python driving Temerature</td>
+    <td><span id="date-time"><script>var dt = new Date();document.getElementById('date-time').innerHTML=dt;</script></span></td>
+  </tr>
+  </table>
+  <
 </div>
-<img src="https://user-images.githubusercontent.com/91216962/135722206-e6aeb2bd-6cac-468d-8677-4c642094065d.jpeg">
-<meta charset="UTF-8">
+
 </body>
 </html>
